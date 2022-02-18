@@ -1,0 +1,21 @@
+{
+  "name": "websocket-chat",
+  "version": "1.0.0",
+  "description": "Simple chat using Socket.IO",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "author": "FelipeRodrigues05",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/socket.io": "^3.0.2",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.5"
+  }
+}
